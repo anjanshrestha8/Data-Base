@@ -1,4 +1,1 @@
- 
-
-
-
+SELECT * FROM anjan_db.billing;
