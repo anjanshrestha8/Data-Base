@@ -18,3 +18,5 @@ SELECT * FROM movies WHERE movie_title LIKE "%N" ORDER BY director ASC;
 ##join queery
 SELECT movies.*,genres.* FROM movies INNER JOIN genres ON movies.genre_id=genres.genre_id;
 
+
+
