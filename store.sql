@@ -9,3 +9,20 @@ VALUES
 ("Anjan5","Shrestha","anjanshrestha2002@gmal.com","anjan","Pokhara");
 
 SELECT * FROM user;
+
+
+## update query
+
+UPDATE user SET firstname="Rakesh" WHERE id =5;
+SELECT * FROM user;
+
+
+## delete query
+
+DELETE FROM user WHERE id =3 ;
+SELECT * FROM user;
+
+
+
+
+
