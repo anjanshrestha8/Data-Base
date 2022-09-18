@@ -29,3 +29,17 @@ use customer_db;
         
 	select * from record;
     
+    ## unique
+    
+    create table orders (
+		id int not null auto_increment,
+        customer_id int not null,
+        product_id int not null,
+        foreign key(customer_id) references record(id),
+         foreign key(product_id) references product(id),
+         primary key(id));
+         
+insert into orders(`customer_id`,`product_id`) values ("1","1"),(2,1);
+         select * from orders;
+        
+    
