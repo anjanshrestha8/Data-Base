@@ -17,10 +17,39 @@ UPDATE user SET firstname="Rakesh" WHERE id =5;
 SELECT * FROM user;
 
 
+
+
 ## delete query
 
 DELETE FROM user WHERE id =3 ;
 SELECT * FROM user;
+ 
+ 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
